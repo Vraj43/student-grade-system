@@ -1,6 +1,11 @@
-from src.backend import load_students,save_students,add_students,get_students
-data=load_students()
-print(data)
+from src.backend import add_students,get_students,update_student,delete_students
 
-add_students(101,"Vraj",20,"sem4")
+add_students(101,"Vraj Patel",20,"sem4")
+
+update_student(101,"Vraj Patel",21,"sem5")
+
+print(get_students())
+
+delete_students(101)
+
 print(get_students())
