@@ -1,5 +1,5 @@
 import json
-from src.config import students_file
+from src.config import students_file, marks_file
 
 def load_students():
     f=open(students_file,"r")
