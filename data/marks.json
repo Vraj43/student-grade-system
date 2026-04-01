@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "student_id": "101",
+        "subject": "Maths",
+        "marks": 78
+    },
+    {
+        "student_id": "101",
+        "subject": "DBMS",
+        "marks": 75
+    },
+    {
+        "student_id": "102",
+        "subject": "Maths",
+        "marks": 75
+    },
+    {
+        "student_id": "102",
+        "subject": "DBMS",
+        "marks": 45
+    }
+]

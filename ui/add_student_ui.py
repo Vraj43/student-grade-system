@@ -6,27 +6,23 @@ def open_add_student():
     window.title("Add Student")
 
     tk.Label(window, text="ID").pack()
-    entry_id = tk.Entry(window)
-    entry_id.pack()
+    sid = tk.Entry(window)
+    sid.pack()
 
     tk.Label(window, text="Name").pack()
-    entry_name = tk.Entry(window)
-    entry_name.pack()
+    name = tk.Entry(window)
+    name.pack()
 
     tk.Label(window, text="Age").pack()
-    entry_age = tk.Entry(window)
-    entry_age.pack()
+    age = tk.Entry(window)
+    age.pack()
 
     tk.Label(window, text="Class").pack()
-    entry_class = tk.Entry(window)
-    entry_class.pack()
+    cls = tk.Entry(window)
+    cls.pack()
 
     def submit():
-        add_students(
-            entry_id.get(),
-            entry_name.get(),
-            entry_age.get(),
-            entry_class.get()
-        )
+        add_students(sid.get(), name.get(), age.get(), cls.get())
+        window.destroy()
 
     tk.Button(window, text="Submit", command=submit).pack()

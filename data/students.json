@@ -1,14 +1,14 @@
 [
     {
         "student_id": "101",
-        "name": "Vraj Patel",
-        "age": "20",
-        "class_name": "Sem 4"
+        "name": "Vraj Padhiyar",
+        "age": "19",
+        "class_name": "Sem4"
     },
     {
-        "student_id": "102",
-        "name": "Manav Patel",
-        "age": "21",
-        "class_name": "Sem 5"
+         "student_id": "102",
+        "name": "Deep Bhavsar",
+        "age": "19",
+        "class_name": "Sem4"
     }
 ]
